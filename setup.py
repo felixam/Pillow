@@ -350,6 +350,7 @@ class pil_build_ext(build_ext):
         _add_directory(include_dirs, "/usr/local/include")
         _add_directory(include_dirs, "/usr/local/include")
         _add_directory(include_dirs, "/app/.jetpack/libwebp")
+        _add_directory(include_dirs, "/app/.jetpack/libwebp/include")
         _add_directory(include_dirs, "/app/.jetpack/libwebp/lib")
         
         _add_directory(library_dirs, "/usr/lib")
